@@ -1,0 +1,69 @@
+/* .menu {
+    height: 110vh;
+} */
+
+.menu .content {
+    margin: auto;
+} 
+@media screen and (max-width: 415px) {
+    .menu .content {
+        margin: 5.1rem auto;
+    }
+}
+
+.foods {
+    width: 90vw;
+}
+.time {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 1rem;
+}
+.time-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 0.2rem;
+    height: 3rem;
+}
+.time-title p {
+    margin-bottom: 1rem;
+    letter-spacing: 0.25rem;
+    color: hsl(209, 61%, 16%);
+    font-size: 1rem;
+}
+.time-text {
+    padding: 0.5rem 0 0.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+}
+.time-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #c59d5f;
+    transition: all 0.3s linear;
+    padding: 0%;
+}
+.time-btn:hover {
+    transform: rotate(90deg);
+}
+.time-text {
+    display: none;
+}
+.show-text .time-text {
+    display: block;
+}
+.minus-icon {
+    display: none;
+}
+.show-text .minus-icon {
+    display: inline;
+}
+.show-text .plus-icon {
+    display: none;
+}

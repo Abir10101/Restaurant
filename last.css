@@ -1,0 +1,44 @@
+.last .content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: unset;
+} 
+.col1,
+.col2 {
+    margin: 1rem;
+    padding: 1rem;    
+}
+@media screen and (max-width: 700px) {
+    .last .content {
+      flex-direction: column;
+      transform: translateY(10%);
+    }
+    .col1,
+    .col2 {
+        margin: 0.5rem 1rem;
+        padding: 0.5rem 1rem;
+    }
+  }
+.col1 h3,
+.col2 h3 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    /* text-align: center; */
+    padding: 4px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    width: 255px;
+}
+.col1 p,
+.col2 p {
+    font-size: 0.8em;
+}
+.footer {
+    background-color: hsl(184deg 61% 16%);
+    padding: 1rem 6rem;
+    color: whitesmoke;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 10.2rem;
+}
